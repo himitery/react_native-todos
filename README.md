@@ -47,8 +47,8 @@
 
 ### ⚙ Create Project
 
-    react-native init {App name}
+    > react-native init {App name}
 
-    cd ".\{App name}"
+    > cd ".\{App name}"
 
-    npm run android
+    > npm run android
