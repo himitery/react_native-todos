@@ -1,5 +1,12 @@
 import React from 'react';
-import {SafeAreaView, StyleSheet, Text, TextInput, View} from 'react-native';
+import {
+  SafeAreaView,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TextInput,
+  View,
+} from 'react-native';
 
 const App = () => {
   return (
@@ -7,6 +14,9 @@ const App = () => {
       <Text style={styles.appTitle}>Hello Todolist</Text>
       <View style={styles.card}>
         <TextInput style={styles.input} placeholder="Add an item!" />
+        <ScrollView>
+          <Text>Todolist</Text>
+        </ScrollView>
       </View>
     </SafeAreaView>
   );
