@@ -10,7 +10,7 @@ const TodoInsert = () => {
         placeholderTextColor={'#999'}
         autoCorrect={false}
       />
-      <View sytle={styles.input}>
+      <View style={styles.button}>
         <Button title={'ADD'} />
       </View>
     </View>

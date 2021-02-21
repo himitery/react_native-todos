@@ -1,12 +1,5 @@
 import React from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StyleSheet,
-  Text,
-  TextInput,
-  View,
-} from 'react-native';
+import {SafeAreaView, StyleSheet, Text, View} from 'react-native';
 
 import TodoInsert from './components/TodoInsert';
 import TodoList from './components/TodoList';
@@ -44,13 +37,6 @@ const styles = StyleSheet.create({
     borderTopRightRadius: 10,
     marginLeft: 10,
     marginRight: 10,
-  },
-  input: {
-    padding: 20,
-    borderBottomColor: '#bbb',
-    borderBottomWidth: 1,
-    fontSize: 24,
-    marginLeft: 20,
   },
 });
 
